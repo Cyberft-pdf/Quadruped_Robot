@@ -1,16 +1,16 @@
 #include <Servo.h>
 
-Servo servo1;  // Vytvoření objektu Servo pro první motor
-Servo servo2;  // Vytvoření objektu Servo pro druhý motor
+Servo servo1; 
+Servo servo2;  
 Servo servo3;
 
-int nulovaPoziceServa1 = 80;  // Nulová pozice pro první servo
-int nulovaPoziceServa2 = 80;  // Nulová pozice pro druhé servo
+int nulovaPoziceServa1 = 80;  
+int nulovaPoziceServa2 = 80;  
 
 void setup() {
-  servo1.attach(A0);  // Připojení prvního serva k analogovému pinu A0
+  servo1.attach(A0);  
   servo2.attach(A1);
-  servo3.attach(A2);  // Připojení druhého serva k analogovému pinu A1
+  servo3.attach(A2);  
 }
 
 void loop() {
