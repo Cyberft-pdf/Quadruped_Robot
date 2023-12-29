@@ -14,12 +14,10 @@ void setup() {
 }
 
 void loop() {
-  // Nastavení nulové pozice pro oba serva
   servo1.write(40);
   servo2.write(0);
   servo3.write(0);
   
-  // Počkejte 1 sekundu
   delay(1000);
   servo1.write(0);
   servo2.write(40);
